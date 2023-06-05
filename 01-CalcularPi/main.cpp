@@ -6,7 +6,7 @@ int main() {
     double denominator = 1.0;
     int sign = 1;
 
-    while (pi < 3.141592 || pi > 3.141593) {
+    while (pi < 3.141593 || pi > 3.141591) {
         pi += sign * (4.0 / denominator);
         denominator += 2.0;
         sign *= -1;
